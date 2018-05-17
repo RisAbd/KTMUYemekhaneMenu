@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#deeaf8"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <TextView
+        android:layout_weight="2"
+        android:text="2018-01-17"
+        android:textSize="30sp"
+        android:layout_gravity="start"
+        android:textColor="#185b18"
+        android:textStyle="bold"
+        android:id="@+id/date_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+
+    <LinearLayout
+        android:id="@+id/meals_container"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:tag="meal"
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Suzmeli Mercimek Corbasi"
+                android:layout_weight="1"
+                android:textColor="#a40808"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="176"
+                android:textAlignment="textEnd"
+                android:layout_weight="1"
+                android:textColor="#939303"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:tag="meal"
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Suzmeli Mercimek Corbasi"
+                android:layout_weight="1"
+                android:textColor="#a40808"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="176"
+                android:textAlignment="textEnd"
+                android:layout_weight="1"
+                android:textColor="#939303"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:tag="meal"
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Suzmeli Mercimek Corbasi"
+                android:layout_weight="1"
+                android:textColor="#a40808"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="176"
+                android:textAlignment="textEnd"
+                android:layout_weight="1"
+                android:textColor="#939303"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:tag="meal"
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Suzmeli Mercimek Corbasi"
+                android:layout_weight="1"
+                android:textColor="#a40808"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="176"
+                android:textAlignment="textEnd"
+                android:layout_weight="1"
+                android:textColor="#939303"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_gravity="end|center_vertical"
+        android:id="@+id/calories_sum"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#7c7c7c"
+        android:layout_weight="1"
+        android:text="854 kalori"
+        android:gravity="end|center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
